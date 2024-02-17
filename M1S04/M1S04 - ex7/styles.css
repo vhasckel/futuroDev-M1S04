@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+
+input[type=time] {
+    border: none;
+    color: #2a2c2d;
+    font-size: 1.5rem;
+    font-family: helvetica;
+}
+
+p {
+    font-size: 1.2rem;
+    padding: 10px;
+}
